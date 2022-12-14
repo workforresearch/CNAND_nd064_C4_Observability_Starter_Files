@@ -1,0 +1,11 @@
+services:
+  backend:
+    build: backend
+    image: researchwork/backend:v9
+  myfrontend:
+    build: frontend
+    image: researchwork/frontend:v10
+  trial:
+    build: trial
+    image: researchwork/trial:v11
+version: '3'
